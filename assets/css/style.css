@@ -3,7 +3,7 @@
 /* Google fonts import */
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700;900&display=swap');
 
 
 
@@ -24,6 +24,10 @@ body {
     color: black;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 
 header {
@@ -40,11 +44,24 @@ header a {
     color: inherit;
 }
 
+header img {
+    display: block;
+    max-width: 100%;
+}
+
+
 h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-family: 'Heebo 900', sans-serif;
     color: #114664;
+    max-width: 100%;
+}
+
+
+#menu {
+    list-style-type: none;
+
 }
 
 /* Main */
