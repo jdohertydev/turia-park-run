@@ -3,7 +3,7 @@
 /* Google fonts import */
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
 
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -22,11 +22,18 @@ body {
     color: black;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;}
+    color: #252525;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
 
 .hidden-heading {
     display: none;
@@ -131,6 +138,38 @@ main {
     text-align: center;
 
 }
+
+/* what-how-where section */
+
+#what-how-where {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+
+#what-how-where h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 100%;
+}
+
+#what {
+    background-color: #37b6ff;
+
+}
+
+#how {
+    background-color: #7ed858;
+
+}
+
+#where {
+    background-color: #ffbf58;
+
+}
+
 
 /* Footer */
 
