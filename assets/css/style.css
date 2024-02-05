@@ -24,6 +24,8 @@ body {
     display: none;
 }
 
+
+
 /* Header */
 
 header {
@@ -105,6 +107,19 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image1.jpg") no-repeat center center/cover;
+    position: relative;
+
+}
+
+#cover-text {
+    background-color: rgba(126, 216, 88, 0.7);
+    font-size: 130%;
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    padding: 10px;
+    text-align: center;
+
 }
 
 /* Footer */
