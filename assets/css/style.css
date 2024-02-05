@@ -138,11 +138,15 @@ main {
 
 #what-how-where {
 
-    display: flex;
+    display: flex; 
     flex-direction: row;
     width: 100%;
 
 }
+
+
+
+
 
 #what-how-where div {
     color: #fafafa;
@@ -150,7 +154,7 @@ main {
 
     /* This will not wrap on screens of less than 400px wide.
     Each div will expand to fill the available space on its row */
-    flex-basis: 200px;
+    flex-basis: 100px;
     flex-grow: 1;
     /* Creates a grid of meetup time divs over the background image */
     border: 1px solid white;
@@ -200,6 +204,14 @@ footer {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/* Media query below 400 px */
+
+@media screen and (max-width: 400px) {  /* help from Jason at Code Institute */
+    #what-how-where {
+    display: unset;
+    }
 }
 
 
