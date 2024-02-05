@@ -31,10 +31,11 @@ h3 {
     color: #114664;
 }
 
-p {
+p, li {
     font-family: 'Montserrat', sans-serif;
     color: #114664;
-    ;
+    list-style-type: none;
+    margin-top: 10px;
 }
 
 .hidden-heading {
@@ -228,9 +229,12 @@ footer {
     }
 
     #logo {
-
-        width: 60%;
+        
         margin: 0 0.5rem;
+    }
+
+    #logo img{
+        width: 60%;
     }
 
 
