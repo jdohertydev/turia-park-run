@@ -94,7 +94,7 @@ nav {
 /* Main */
 
 main {
-    background-color: lightblue;
+    background-color: #7ed858;
     flex: 1 0 auto;
     margin-top: 47px;
 }
@@ -102,8 +102,25 @@ main {
 /* Footer */
 
 footer {
-    background-color: orange;
+
+    background-color: #ffbf58;
 }
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -131,7 +148,7 @@ footer {
     }
 
     #logo {
-        
+
         width: 60%;
         margin: 0 0.5rem;
     }
