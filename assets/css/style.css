@@ -1,5 +1,11 @@
 /* Start with general rules and move down with specificity */
 
+/* Google fonts import */
+
+
+
+
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -9,7 +15,7 @@
 
 /* General styles */
 
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -20,6 +26,10 @@ body{
 
 header {
     background-color: lightcoral;
+}
+
+h1 {
+    text-transform: uppercase;
 }
 
 /* Main */
