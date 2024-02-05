@@ -90,6 +90,22 @@ main {
     margin-top: 47px;
 }
 
+/* Call to action banner */
+
+#call-to-action-banner {
+    background-color: #37b6ff;
+    padding: 10px;
+
+}
+
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image1.jpg") no-repeat center center/cover;
+}
+
 /* Footer */
 
 footer {
