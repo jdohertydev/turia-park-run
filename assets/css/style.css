@@ -28,11 +28,13 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+    color: #114664;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
+    color: #114664;
+    ;
 }
 
 .hidden-heading {
@@ -144,9 +146,9 @@ main {
 #what-how-where {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    
+    justify-content: space-evenly;
+
+
 }
 
 #what-how-where h2 {
