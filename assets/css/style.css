@@ -3,6 +3,8 @@
 /* Google fonts import */
 
 
+  @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700;900&display=swap');
+
 
 
 
@@ -33,8 +35,16 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Heebo 900', sans-serif;
+    color: #114664;
 }
 
 /* Main */
