@@ -111,15 +111,6 @@ main {
     margin-top: 47px;
 }
 
-/* Call to action banner */
-
-#call-to-action-banner {
-    background-color: #37b6ff;
-    padding: 10px;
-    text-align: center;
-
-}
-
 
 /* Hero section */
 #hero {
@@ -138,24 +129,39 @@ main {
     bottom: 30px;
     padding: 10px;
     text-align: center;
+    border: 1px solid white;
 
 }
 
 /* what-how-where section */
 
 #what-how-where {
+
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-
+    width: 100%;
 
 }
+
+#what-how-where div {
+    color: #fafafa;
+    padding: 15px;
+
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup time divs over the background image */
+    border: 1px solid white;
+}
+
 
 #what-how-where h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 100%;
 }
+
 
 #what {
     background-color: #37b6ff;
