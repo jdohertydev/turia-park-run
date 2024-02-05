@@ -2,7 +2,9 @@
 
 /* Google fonts import */
 
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700;900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -19,6 +21,12 @@ body {
     flex-direction: column;
     color: black;
 }
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;}
 
 .hidden-heading {
     display: none;
@@ -53,6 +61,7 @@ header img {
 
 #menu {
     list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
