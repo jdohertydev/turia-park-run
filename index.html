@@ -80,7 +80,27 @@
         </section>
 
         <section id="faq">
-            test
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq">
+                <button class="accordion">What is XXX?
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="panel">
+                    <p>This is the answer</p>
+                </div>
+
+            </div>
+
+            <div class="faq">
+                <button class="accordion">What is XXX2?
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="panel">
+                    <p>This is the answer2</p>
+                </div>
+
+            </div>
+            
         </section>
 
     </main>
@@ -103,6 +123,25 @@
 
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/18b7746164.js" crossorigin="anonymous"></script>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+  
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            this.parentElement.classList.toggle("active");
+  
+            var pannel = this.nextElementSibling;
+  
+            if (pannel.style.display === "block") {
+              pannel.style.display = "none";
+            } else {
+              pannel.style.display = "block";
+            }
+          });
+        }
+      </script>
 
 </body>
 

@@ -146,10 +146,6 @@ main {
 
 }
 
-
-
-
-
 #what-how-where div {
     color: #fafafa;
     padding: 15px;
@@ -185,6 +181,50 @@ main {
 
 }
 
+/* FAQs Section */
+
+.accordion {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+    .active,
+    .accordion:hover{
+        background-color: white;
+    }
+
+    .panel{
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+        background-color: #37b6ff;
+        padding: 0 2rem 2.5rem 2rem;
+    }
+
+    panel p{
+        color: #37b6ff;
+    }
+
+    .faq{
+        border: 1px solid rgb(from 0 0 0 0.1);
+        margin: 10px 0;
+    }
+
+    .faq.active {
+        border: none;
+      }
 
 /* Footer */
 
