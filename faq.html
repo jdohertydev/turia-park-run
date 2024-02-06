@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turia Park Run | FAQs</title>
+    <meta name="description"
+        content="Turia Park Run. A free, 5k race held every first Saturday of the month. Inspired by parkrun.org, we inspire to bring runners together of all ages and abilities.">
+    <meta name="keywords" content="Turia Park, Valencia, parkrun, 5k, free running event, running, jogging, fitness">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Favicon https://favicon.io/favicon-converter/ -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon//favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon//site.webmanifest">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="hidden-heading">Turia Park Run | FAQs</h1>
+        <div id="logo">
+            <a href="index.html"><img src="assets/images/turia-park-run-logo.png" alt="Turia Park Run Logo"></a>
+        </div>
+
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">home</li></a>
+                <li><a href="faq.html">FAQs</li></a>
+                <li><a href="gallery.html">gallery</li></a>
+                <li><a href="sign-up.html">sign up</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section id="hero-faq">
+
+        </section>
+
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq">
+                <button class="accordion">
+                    <h4>Are you connected to parkrun org?</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="panel">
+                    <p>No. This event is only inspired by parkrun org. There's no affiliation between the two.</p>
+                </div>
+
+            </div>
+
+            <div class="faq">
+                <button class="accordion">
+                    <h4>Do I have to register?</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="panel">
+                    <p>It's nice to know who's coming so please sign up via our Telegram group. It also gives you an
+                        opportunity to connect to runners before the start.</p>
+                </div>
+
+            </div>
+
+            <div class="faq">
+                <button class="accordion">
+                    <h4>Do I have to pay?</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="panel">
+                    <p>This event is 100% free and organised purely for the love of running. You'll never be asked to
+                        part with any money.</p>
+                </div>
+
+            </div>
+
+            <div class="faq">
+                <button class="accordion">
+                    <h4>I'm a bit slow. Can I still run?</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="panel">
+                    <p>Of course! We have runners of all abilities. We never leave a runner behind!</p>
+                </div>
+
+            </div>
+
+            <div class="faq">
+                <button class="accordion">
+                    <h4>Is the parkrun timed?</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="panel">
+                    <p>No. We're not quite there yet with keeping times centrally. Feel free to keep your own times
+                        though.</p>
+                </div>
+
+            </div>
+
+            <div class="faq">
+                <button class="accordion">
+                    <h4>Is there a bag drop?</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="panel">
+                    <p>I'm afraid not. Keep your personal possessions safe and on you. We suggest carrying a small bag
+                        or a running belt.</p>
+                </div>
+
+            </div>
+
+            <div class="faq">
+                <button class="accordion">
+                    <h4>What if it rains?</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="panel">
+                    <p>Then we get wet! It'll will take a natural disaster to stop us running!</p>
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <ul id="social-networks">
+            <li><a href="http://www.strava.com" target="_blank" rel="nonopener"
+                    aria-label="Visit our Strava page (opens in a new tab)"><i class="fa-brands fa-strava"></i></a></li>
+            <li><a href="http://www.facebook.com" target="_blank" rel="nonopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i
+                        class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="http://www.instagram.com" target="_blank" rel="nonopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a></li>
+            <li><a href="http://www.youtube.com" target="_blank" rel="nonopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i
+                        class="fa-brands fa-square-youtube"></i></a></li>
+        </ul>
+
+
+    </footer>
+
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/18b7746164.js" crossorigin="anonymous"></script>
+    <script> <!-- https://github.com/elemfreak/HTML -->
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                this.parentElement.classList.toggle("active"); var pannel = this.nextElementSibling; if
+                    (pannel.style.display === "block") { pannel.style.display = "none"; } else { pannel.style.display = "block"; }
+            });
+        } </script>
+
+</body>
+
+</html>

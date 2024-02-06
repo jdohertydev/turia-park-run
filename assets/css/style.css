@@ -82,6 +82,7 @@ header img {
     list-style-type: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    text-transform: uppercase;
 
 }
 
@@ -130,6 +131,16 @@ main {
     position: relative;
     background-position: 50% 15%;
     /* code from https://developer.mozilla.org/en-US/docs/Web/CSS/background-position */
+
+}
+
+#hero-faq {
+
+    height: 400px;
+    width: 100%;
+    background: url("../images/faq-hero.jpg") no-repeat center center/cover;
+    position: relative;
+    background-position: 50% 25%;
 
 }
 
@@ -198,8 +209,9 @@ main {
 
 #faq h2 {
 
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.5rem; 
 }
+
 
 .accordion {
 
@@ -283,6 +295,8 @@ footer {
 
     #menu {
         display: flex;
+        text-wrap: nowrap;
+
     }
 
     #menu>li {
