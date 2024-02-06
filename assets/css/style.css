@@ -328,6 +328,7 @@ main {
     font-family: 'Montserrat', sans-serif;
     border-radius: 2px;
     padding: 0 5px;
+    
 }
 
 #where-did-you-here{
@@ -336,6 +337,8 @@ main {
     margin: 5px 0 20px 0;
     font-family: 'Montserrat', sans-serif;
     color:#114664;
+    border: 1px solid #114664;
+    border-radius: 2px;
 }
 
 .join-button {
@@ -370,6 +373,7 @@ footer {
     padding: 5%;
     color: #114664;
 }
+
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
