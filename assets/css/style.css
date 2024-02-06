@@ -154,7 +154,7 @@ main {
     width: 100%;
     background: url("../images/gallery-hero.jpg") no-repeat center center/cover;
     position: relative;
-    
+
 
 }
 
@@ -223,7 +223,7 @@ main {
 
 #faq h2 {
 
-    padding: 1rem 1.5rem; 
+    padding: 1rem 1.5rem;
 }
 
 
@@ -262,6 +262,30 @@ main {
     border: none;
 }
 
+/* Gallery */
+
+#gallery h2 {
+
+    padding: 1rem 1.5rem;
+
+}
+
+
+#photos {
+    column-count: 3;
+}
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
+
+
 /* Footer */
 
 footer {
@@ -284,6 +308,18 @@ footer {
     color: #114664;
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+    }
+}
+
+
+
+
+
 /* Media query below 500 px */
 
 @media screen and (max-width: 500px) {
@@ -292,7 +328,15 @@ footer {
     #what-how-where {
         display: unset;
     }
+
+
+    #photos {
+        column-count: 1;
+        column-gap: 0;
+    }
+
 }
+
 
 
 /* Media query: tablets and larger (768px and up) */
@@ -344,4 +388,10 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #114664;
     }
+
+    /* Gallery */
+    #photos {
+        column-count: 4;
+    }
+
 }
