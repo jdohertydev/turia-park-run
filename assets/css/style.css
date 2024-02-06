@@ -158,6 +158,18 @@ main {
 
 }
 
+#sign-up-hero {
+
+    height: 400px;
+    width: 100%;
+    background: url("../images/sign-up-hero.jpg") no-repeat center center/cover;
+    position: relative;
+    background-position: 50% 25%;
+
+
+}
+
+
 #cover-text {
     background-color: rgba(126, 216, 88, 0.7);
     font-size: 130%;
@@ -291,6 +303,8 @@ main {
 footer {
 
     background-color: #ffbf58;
+
+
 }
 
 #social-networks {
