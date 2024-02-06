@@ -262,7 +262,7 @@ main {
     border: none;
 }
 
-/* Gallery */
+/* Gallery - code adapted from Love Running walkthrough */
 
 #gallery h2 {
 
@@ -389,7 +389,7 @@ footer {
         border-bottom: 1px solid #114664;
     }
 
-    /* Gallery */
+    /* Gallery - code adapted from Love Running walkthrough */
     #photos {
         column-count: 4;
     }
