@@ -32,6 +32,13 @@ h3 {
     color: #114664;
 }
 
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    color: #114664;
+
+}
+
 p,
 li {
     font-family: 'Montserrat', sans-serif;
