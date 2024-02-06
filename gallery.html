@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Turia Park Run | Gallery</title>
+    <title>Turia Park Run | FAQs</title>
     <meta name="description"
         content="Turia Park Run. A free, 5k race held every first Saturday of the month. Inspired by parkrun.org, we inspire to bring runners together of all ages and abilities.">
     <meta name="keywords" content="Turia Park, Valencia, parkrun, 5k, free running event, running, jogging, fitness">
@@ -21,7 +21,7 @@
 <body>
 
     <header>
-        <h1 class="hidden-heading">Turia Park Run</h1>
+        <h1 class="hidden-heading">Turia Park Run | FAQs</h1>
         <div id="logo">
             <a href="index.html"><img src="assets/images/turia-park-run-logo.png" alt="Turia Park Run Logo"></a>
         </div>
@@ -30,18 +30,55 @@
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="">home</li></a>
-                <li><a href="">FAQs</li></a>
-                <li><a href="">gallery</li></a>
-                <li><a href="">sign up</li></a>
+                <li><a href="index.html">home</li></a>
+                <li><a href="faq.html" >FAQs</li></a>
+                <li><a href="gallery.html" class="active">gallery</li></a>
+                <li><a href="sign-up.html">sign up</li></a>
             </ul>
         </nav>
     </header>
     <main>
 
-        <section id="hero">
-            <div id="cover-text">
-                <h2>Our next event is 2nd March 2024</h2>
-                <input type="submit" value="Sign up now!">
-            </div>
+        <section id="gallery-hero">
+
         </section>
+
+ 
+
+    </main>
+
+    <footer>
+        <ul id="social-networks">
+            <li><a href="http://www.strava.com" target="_blank" rel="nonopener"
+                    aria-label="Visit our Strava page (opens in a new tab)"><i class="fa-brands fa-strava"></i></a></li>
+            <li><a href="http://www.facebook.com" target="_blank" rel="nonopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i
+                        class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="http://www.instagram.com" target="_blank" rel="nonopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a></li>
+            <li><a href="http://www.youtube.com" target="_blank" rel="nonopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i
+                        class="fa-brands fa-square-youtube"></i></a></li>
+        </ul>
+
+
+    </footer>
+
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/18b7746164.js" crossorigin="anonymous"></script>
+    <script> <!-- https://github.com/elemfreak/HTML -->
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                this.parentElement.classList.toggle("active"); var pannel = this.nextElementSibling; if
+                    (pannel.style.display === "block") { pannel.style.display = "none"; } else { pannel.style.display = "block"; }
+            });
+        } </script>
+
+</body>
+
+</html>
