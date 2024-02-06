@@ -41,11 +41,11 @@
 
         <section id="sign-up-hero">
         </section>
-        
+
         <section id="sign-up">
             <h2>sign up for our next event on 2 March 2023</h2>
             <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
-                
+
                 <label for="first_name">First Name</label>
                 <input type="text" name="first_name" id="first_name" class="text-input" required>
                 <br>
@@ -55,7 +55,17 @@
                 <label for="email_address">Email Address</label>
                 <input type="email" name="email_address" id="email_address" class="text-input" required>
                 <br>
-                
+                <label for="where-did-you-here">Where did you hear about us?</label>
+                <select name="where-did-you-here" id="where-did-you-here">
+                    <option name="social-media">Social media</option>
+                    <option name="search-engine">Search engine</option>
+                    <option name="word-of-mouth">Word of mouth</option>
+                    <option name="running-event">Running event</option>
+                    <option name="other">Other</option>
+
+                </select>
+
+                <br>
                 <button type="submit" class="join-button">Send</button>
             </form>
         </section>
