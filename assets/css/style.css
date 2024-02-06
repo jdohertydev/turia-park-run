@@ -20,6 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1,
