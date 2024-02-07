@@ -435,18 +435,19 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-        
+
     }
 
     #menu {
         display: flex;
-        text-wrap: nowrap;
-        
+
 
     }
 
     #menu>li {
         padding-left: 1rem;
+        white-space: nowrap;
+
     }
 
     .nav-toggle-label {
@@ -461,7 +462,7 @@ footer {
 
     #logo img {
         width: 60%;
-        
+
     }
 
 
