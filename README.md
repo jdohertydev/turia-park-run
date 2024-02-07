@@ -19,3 +19,11 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 
 ![Screenshot of burger menu from Turia Park Run website](assets/images/readme-images/burger-menu.png)
+
+## Landing page 
+
+* A hero image showing runners laughing is used to generate the user’s attention. 
+* Centred on this image is some text informing the user when the next event is and a 'call to action' link which takes them directly to the sign-up page.
+
+![Screenshot from Am I Responsive.](assets/images/readme-images/call-to-action-button.jpg)
+
