@@ -8,6 +8,12 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 [Source: https://ui.dev/amiresponsive?url=https://jdohertydev.github.io/turia-park-run/]
 
+## Early development
+
+* Before starting, a basic wireframe was developed using [balsamiq](https://balsamiq.com/) which helped visualise the website.
+
+![Screenshot of wireframe](assets/images/readme-images/wireframe-screenshot.png)
+
 ## Features
 
 ### Navigation bar
@@ -16,7 +22,6 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 * Similar to breadcrumbs, the active page link is underlined so the user always knows where they are.
 * For those using a mouse, a hover-over indicates the presence of clickable links.
 * For users on a smaller viewport, the page links become hidden behind a familiar 'burger' menu which maximises screen real-estate.
-
 
 ![Screenshot of burger menu from Turia Park Run website](assets/images/readme-images/burger-menu.png)
 
@@ -75,7 +80,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 * On a fully-developed live site, I would like to have a page where runners' times are populated in a table, however this is something definitely outside of the scope of this project.
 
-![Screenshot of Parkrun results table ](assets/images/readme-images/park-run-screenshot.png)
+![Screenshot of Parkrun results table](assets/images/readme-images/park-run-screenshot.png)
 
 [Source: https://www.parkrun.org.uk/porthcawl/results/latestresults/]
 
