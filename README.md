@@ -122,6 +122,16 @@ The purpose of this website is to inform potential runners of the event e.g. dat
     * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 * The live link is [Turia Park Run](https://github.com/jdohertydev/turia-park-run).
 
+## Credits
 
+### Content
+* This site was inspired by the Love Running walkthrough and many of the pages have used code from it. Without this resource, it would have been difficult to produce something so professional.
+* The FAQ page was adapted from ['How to Create an Effective Faq Page Design with HTML and CSS'](https://www.youtube.com/watch?v=6U-8kIx2oMk).
 
+### Media
 
+* The favicon icon based on the logo was create using [Favicon](https://favicon.io/favicon-converter/).
+* Montserrat was the main font used throughout the site and this was taken from [Google Fonts]( https://fonts.google.com/).
+* The author has been given permission to use all the stock photos of runners which were taken from a recent event.
+* Icons that feature in the 'where?' and footer section are from [Font Awesome]( https://fontawesome.com/).
+* The logo was designed by the author using [Design.com](https://www.design.com/).
