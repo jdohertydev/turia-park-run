@@ -22,7 +22,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 ## Landing page 
 
-* A hero image showing runners laughing is used to generate the user's attention. 
+* A hero image showing runners laughing is used to generate the user's attention.
 * Centred on this image is some text in capital letters informing the user when the next event is and a 'call to action' link which takes them directly to the sign-up page.
 
 ![Screenshot of call to action button](assets/images/readme-images/call-to-action-button.jpg)
@@ -54,9 +54,6 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 ![Screenshot of FAQ section](assets/images/readme-images/faq-section.png)
 
-
-
-
 ## The Gallery
 
 * This page serves to ‘sell’ the running event by showing images of runners in a recent race.
@@ -65,3 +62,12 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 * The page is responsive and will adjust the number of columns going from 4 to 1 depending on the viewport, triggered by certain breakpoints.
 
 ![Screenshot of gallery responsiveness](assets/images/readme-images/responsive-gallery-annimated.gif)
+
+## Sign-up page
+
+* After generating awareness, interest and desire of the running event through the other pages, the purpose of the sign-up page is to affect action. 
+* The user is required to enter their name, email address and also select where they heard about the event.
+* All fields are required and a valid email address (with @, .com, etc) needs to be entered by the user.
+
+![Screenshot of sign-up form](assets/images/readme-images/sign-up-screenshot.png)
+
