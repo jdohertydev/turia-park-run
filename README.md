@@ -43,6 +43,20 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 ![Screenshot of footer section](assets/images/readme-images/footer-sm-icons.png)
 
+## FAQs
+
+* The ‘frequently asked questions’ aims to alleviate runners of any worries/doubts so that they are more likely to sign up.
+* The questions featured are real questions that are asked monthly.
+* To ensure that users know that an interaction is needed to see the answers, downward chevrons from Font Awesome have been placed at the end of each question.
+* Due to the density of the information in this section, an accordion-style dropdown menu was used so the information displayed is always information that has been specifically requested by the user.
+* This effect was achieved using CSS and JavaScript based on a YouTube tutorial [‘How to Create an Effective Faq Page Design with HTML and CSS’](https://www.youtube.com/watch?v=6U-8kIx2oMk).
+* 
+
+![Screenshot of FAQ section](assets/images/readme-images/faq-section.png)
+
+
+
+
 ## The Gallery
 
 * This page serves to ‘sell’ the running event by showing images of runners in a recent race.
