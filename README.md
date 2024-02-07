@@ -66,7 +66,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 ## Sign-up page
 
 * After generating awareness, interest and desire of the running event through the other pages, the purpose of the sign-up page is to affect action. 
-* The user is required to enter their name, email address and also select where they heard about the event.
+* The user is required to enter their name, email address and also select where they heard about the event. This will help to understand how users are finding us.
 * All fields are required and a valid email address (with @, .com, etc) needs to be entered by the user.
 
 ![Screenshot of sign-up form](assets/images/readme-images/sign-up-screenshot.png)
