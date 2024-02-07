@@ -281,6 +281,7 @@ main {
     display: none;
     overflow: hidden;
     padding: 1rem 1.5rem;
+    background-color: #ffbf58;
 }
 
 .faq {
