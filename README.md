@@ -27,7 +27,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 ![Screenshot of call to action button](assets/images/readme-images/call-to-action-button.jpg)
 
-## Information section
+### Information section
 
 * This section aims to give the user all the key information in the most concise way possible. This is achieved using three simple headings with minimal text.
 * The colours from the logo are used in each column to break up the text and make it more visually appealing.
@@ -35,7 +35,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 ![Screenshot of information section](assets/images/readme-images/information-section.jpg)
 
-## The Footer
+### The Footer
 
 * The footer section provides link to social media platforms.
 * Icon colours match  the text from the logo for consistency.
@@ -43,7 +43,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 ![Screenshot of footer section](assets/images/readme-images/footer-sm-icons.png)
 
-## FAQs
+### FAQs
 
 * The ‘frequently asked questions’ aims to alleviate runners of any worries/doubts so that they are more likely to sign up.
 * The questions featured are real questions that are asked monthly and the colours used are consistent with logo.
@@ -54,7 +54,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 ![Screenshot of FAQ section](assets/images/readme-images/faq-section.png)
 
-## The Gallery
+### The Gallery
 
 * This page serves to ‘sell’ the running event by showing images of runners in a recent race.
 * Both running photos and social photos have been carefully selected as the primary function of the fun run is to bring the local running community together and less about being a competitive race.
@@ -63,7 +63,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 ![Screenshot of gallery responsiveness](assets/images/readme-images/responsive-gallery-annimated.gif)
 
-## Sign-up page
+### Sign-up page
 
 * After generating awareness, interest and desire of the running event through the other pages, the purpose of the sign-up page is to affect action. 
 * The user is required to enter their name, email address and also select where they heard about the event. This will help to understand how users are finding us.
@@ -71,12 +71,20 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 ![Screenshot of sign-up form](assets/images/readme-images/sign-up-screenshot.png)
 
-## Features left to implement
+### Features left to implement
 
 * On a fully-developed live site, I would like to have a page where runners’ times are populated in a table, however this is something definitely outside of the scope of this project.
 
 ![Screenshot of Parkrun results table ](assets/images/readme-images/park-run-screenshot.png)
 
 [Source: https://www.parkrun.org.uk/porthcawl/results/latestresults/]
+
+## Testing
+
+* This site has been tested on a Windows 11 desktop version of Chrome, Firefox and Edge. 
+* Using Chrome Dev Tools, simulations of mobile and tablet viewports have also been tested with no major display errors.
+* The sign-up form validates the user’s email address as well as making all fields compulsory.
+* All external links open in a new tab so users stay within the site and the ‘noopener’ attribute has also been added to protect the user.
+
 
 
