@@ -14,6 +14,10 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 ![Screenshot of wireframe](assets/images/readme-images/wireframe-screenshot.png)
 
+## Technologies used
+
+* This site has used HTML, CSS and JavaScript.
+
 ## Features
 
 ### Navigation bar
@@ -90,6 +94,20 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 * Using Chrome Dev Tools, simulations of mobile and tablet viewports have also been tested with no major display errors.
 * The sign-up form validates the user's email address as well as making all fields compulsory.
 * All external links open in a new tab so users stay within the site and the 'noopener' attribute has also been added to protect the user.
+
+### Screenshots of website on different devices
+
+#### Mobile (280x653)
+
+![Screenshot of mobile screenshot](assets/images/readme-images/mobile-screenshot.png)
+
+#### Tablet/laptop (768x1024)
+
+![Screenshot of tablet/laptop screenshot](assets/images/readme-images/tablet-screenshot.png)
+
+#### Desktop (1920×1080)
+
+![Screenshot of desktop screenshot](assets/images/readme-images/desktop-screenshot.png)
 
 ### Bugs
 
