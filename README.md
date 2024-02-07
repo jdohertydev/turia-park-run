@@ -8,3 +8,14 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 [Source: https://ui.dev/amiresponsive?url=https://jdohertydev.github.io/turia-park-run/]
 
+## Features
+
+### Navigation bar
+
+* A unique logo and logical menu sequence appear in the navigation bar. This is consistent across all pages of the site.
+* Similar to breadcrumbs, the active page link is underlined so the user always knows where they are.
+* For those using a mouse, a hover-over indicates the presence of clickable links.
+* For users on a smaller viewport, the page links become hidden behind a familiar ‘burger’ menu which maximises screen real-estate.
+
+
+![Screenshot of burger menu from Turia Park Run website](assets/images/readme-images/burger-menu.png)
