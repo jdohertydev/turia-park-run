@@ -15,7 +15,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 * A unique logo and logical menu sequence appear in the navigation bar. This is consistent across all pages of the site.
 * Similar to breadcrumbs, the active page link is underlined so the user always knows where they are.
 * For those using a mouse, a hover-over indicates the presence of clickable links.
-* For users on a smaller viewport, the page links become hidden behind a familiar ‘burger’ menu which maximises screen real-estate.
+* For users on a smaller viewport, the page links become hidden behind a familiar 'burger' menu which maximises screen real-estate.
 
 
 ![Screenshot of burger menu from Turia Park Run website](assets/images/readme-images/burger-menu.png)
@@ -31,7 +31,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 * This section aims to give the user all the key information in the most concise way possible. This is achieved using three simple headings with minimal text.
 * The colours from the logo are used in each column to break up the text and make it more visually appealing.
-* Icons that are familiar to users are used in ‘Where do you meet?’ as well as embedded hyperlinks that open externally to Google Maps.
+* Icons that are familiar to users are used in 'Where do you meet?' as well as embedded hyperlinks that open externally to Google Maps.
 
 ![Screenshot of information section](assets/images/readme-images/information-section.jpg)
 
@@ -45,18 +45,18 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 ### FAQs
 
-* The ‘frequently asked questions’ aims to alleviate runners of any worries/doubts so that they are more likely to sign up.
+* The 'frequently asked questions' aims to alleviate runners of any worries/doubts so that they are more likely to sign up.
 * The questions featured are real questions that are asked monthly and the colours used are consistent with logo.
 * To ensure that users know that an interaction is needed to see the answers, downward chevrons from Font Awesome have been placed at the end of each question.
 * Due to the density of the information in this section, an accordion-style dropdown menu was used so the information displayed is always information that has been specifically requested by the user.
-* This effect was achieved using CSS and JavaScript based on a YouTube tutorial [‘How to Create an Effective Faq Page Design with HTML and CSS’](https://www.youtube.com/watch?v=6U-8kIx2oMk).
+* This effect was achieved using CSS and JavaScript based on a YouTube tutorial ['How to Create an Effective Faq Page Design with HTML and CSS'](https://www.youtube.com/watch?v=6U-8kIx2oMk).
 * If the user cannot find the answer to a question they have, a 'mailto' option is included in the question 'I have a different question. What can I do?'.
 
 ![Screenshot of FAQ section](assets/images/readme-images/faq-section.png)
 
 ### The Gallery
 
-* This page serves to ‘sell’ the running event by showing images of runners in a recent race.
+* This page serves to 'sell' the running event by showing images of runners in a recent race.
 * Both running photos and social photos have been carefully selected as the primary function of the fun run is to bring the local running community together and less about being a competitive race.
 * All images have alt descriptions for accessibility and have been run through compression software to reduce loading times.
 * The page is responsive and will adjust the number of columns going from 4 to 1 depending on the viewport, triggered by certain breakpoints.
@@ -73,7 +73,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 ### Features left to implement
 
-* On a fully-developed live site, I would like to have a page where runners’ times are populated in a table, however this is something definitely outside of the scope of this project.
+* On a fully-developed live site, I would like to have a page where runners' times are populated in a table, however this is something definitely outside of the scope of this project.
 
 ![Screenshot of Parkrun results table ](assets/images/readme-images/park-run-screenshot.png)
 
@@ -83,8 +83,22 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 * This site has been tested on a Windows 11 desktop version of Chrome, Firefox and Edge. 
 * Using Chrome Dev Tools, simulations of mobile and tablet viewports have also been tested with no major display errors.
-* The sign-up form validates the user’s email address as well as making all fields compulsory.
-* All external links open in a new tab so users stay within the site and the ‘noopener’ attribute has also been added to protect the user.
+* The sign-up form validates the user's email address as well as making all fields compulsory.
+* All external links open in a new tab so users stay within the site and the 'noopener' attribute has also been added to protect the user.
+
+## Bugs
+
+### Solved bugs
+* Originally the hero image, when shown on a desktop cut the runner's head off which looked unprofessional. Thanks to some support from Code Institute, I was able to adjust this using the 'background-position' attribute.
+* When checking the responsiveness of the Information Section, the 3 columns became squashed when reaching the breakpoint of mobile phones. Again, with some support from Code Institute, a media query was used to remove flex formatting which resulted in the columns stacking on top of each other – much more presentable.  
+* When validating the HTML code for the FAQ page which was predominately borrowed, I kept getting the error 'Element h4 not allowed as child of element button in this context'. With some trial and error, I changed the 'button' element to 'div' and this fixed this issue.
+* A similar error occurred when I tried to use a button for the 'call to action' on the first page. The error given was 'Element 'a' not allowed as child of element button in this context'. Based on some research, the advice given to fix this was to create a div that is styled in a way to look like a button, which is what I ultimately did.
+
+### Unsolved bugs
+
+* Although technically not a bug, the logo used was designed using a professional website that charges for a high-resolution version without gridlines. If this site were to be deployed, this logo would need to be bought. Right now, it does take a little bit away from the overall aesthetic but it is a good proof of concept.
+* Pending fix Wrap:nowrap
+* Pending fix HTML Logo link
 
 
 
