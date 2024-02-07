@@ -35,4 +35,11 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 ![Screenshot of information section](assets/images/readme-images/information-section.jpg)
 
+## The Footer
+
+* The footer section provides link to social media platforms.
+* Icon colours match  the text from the logo for consistency.
+* Icons from Font Awesome are used instead of text to create a better aesthetic look and social media platforms have been ranked in order of their most important i.e. a runner is more likely to want to link to Strava therefore this appears first.
+
+![Screenshot of footer section](assets/images/readme-images/footer-sm-icons.png)
 
