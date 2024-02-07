@@ -99,11 +99,11 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 * When validating the HTML code for the FAQ page which was predominately borrowed, I kept getting the error 'Element h4 not allowed as child of element button in this context'. With some trial and error, I changed the 'button' element to 'div' and this fixed this issue.
 * A similar error occurred when I tried to use a button for the 'call to action' on the first page. The error given was 'Element 'a' not allowed as child of element button in this context'. Based on some research, the advice given to fix this was to create a div that is styled in a way to look like a button, which is what I ultimately did.
 * When validating the CSS, I kept returning an error 'Property text-wrap doesn't exist : nowrap'. This was fixed by changing the property to 'white-space: nowrap;'.
+* Originally, the whole div inside where the logo was contained was a clickable click to get to the home page. This fix required changing the CSS code targeting the logo to display: 'inline-block;'.
 
 #### Unsolved bugs
 
 * Although technically not a bug, the logo used was designed using a professional website that charges for a high-resolution version without gridlines. If this site were to be deployed, this logo would need to be bought. Right now, it does take a little bit away from the overall aesthetic but it is a good proof of concept.
-* Pending fix HTML Logo link
 
 ### Validator testing
 
