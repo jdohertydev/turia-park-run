@@ -86,19 +86,37 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 * The sign-up form validates the user's email address as well as making all fields compulsory.
 * All external links open in a new tab so users stay within the site and the 'noopener' attribute has also been added to protect the user.
 
-## Bugs
+### Bugs
 
-### Solved bugs
+#### Solved bugs
 * Originally the hero image, when shown on a desktop cut the runner's head off which looked unprofessional. Thanks to some support from Code Institute, I was able to adjust this using the 'background-position' attribute.
 * When checking the responsiveness of the Information Section, the 3 columns became squashed when reaching the breakpoint of mobile phones. Again, with some support from Code Institute, a media query was used to remove flex formatting which resulted in the columns stacking on top of each other – much more presentable.  
 * When validating the HTML code for the FAQ page which was predominately borrowed, I kept getting the error 'Element h4 not allowed as child of element button in this context'. With some trial and error, I changed the 'button' element to 'div' and this fixed this issue.
 * A similar error occurred when I tried to use a button for the 'call to action' on the first page. The error given was 'Element 'a' not allowed as child of element button in this context'. Based on some research, the advice given to fix this was to create a div that is styled in a way to look like a button, which is what I ultimately did.
 
-### Unsolved bugs
+#### Unsolved bugs
 
 * Although technically not a bug, the logo used was designed using a professional website that charges for a high-resolution version without gridlines. If this site were to be deployed, this logo would need to be bought. Right now, it does take a little bit away from the overall aesthetic but it is a good proof of concept.
 * Pending fix Wrap:nowrap
 * Pending fix HTML Logo link
+
+### Validator testing
+
+#### HTML and CSS
+
+* No HTML or CSS errors are returned when passing through [The W3C Markup Validation Service](https://validator.w3.org/).
+
+### Accessibility 
+
+* This site was developed with a colour scheme that is visually appealing but also very minimal, always considering the accessibility of the user.
+* All images used have an alt description attribute and the icons used for social media links use the aria-label attribute.
+* Using [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview), this site scored an accessibility rating of 94 and a 95-performance rating overall.
+
+![Screenshot of Lighthouse Desktop Score](assets/images/readme-images/lighthouse-desktop.png)
+
+
+
+
 
 
 
