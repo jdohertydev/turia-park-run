@@ -114,8 +114,13 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 ![Screenshot of Lighthouse Desktop Score](assets/images/readme-images/lighthouse-desktop.png)
 
+## Deployment
 
-
+* This site was created using GitPod and deployed to GitHub.
+    * In the GitHub repository, navigate to the Settings tab.
+    * From the source section drop-down menu, select the Master Branch.
+    * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+* The live link is [Turia Park Run](https://github.com/jdohertydev/turia-park-run).
 
 
 
