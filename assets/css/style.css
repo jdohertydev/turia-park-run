@@ -380,9 +380,10 @@ footer {
 
 #social-networks {
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 0; 
     display: flex;
-    justify-content: space-evenly;
+    gap: 20px;
+    justify-content: center;
     list-style: none;
 
 }
@@ -395,7 +396,7 @@ footer {
 
 #logo a {
     width: 60%;
-	display: inline-block;
+    display: inline-block;
 }
 
 #logo img {
@@ -466,8 +467,9 @@ footer {
     #logo a {
         width: 60%;
         display: inline-block;
+
     }
-    
+
     #logo img {
         width: 100%;
     }
