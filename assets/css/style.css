@@ -333,6 +333,7 @@ main {
     top: 150px;
     font-family: 'Montserrat', sans-serif;
     color: #114664;
+    margin: auto;
 }
 
 .text-input {
