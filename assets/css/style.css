@@ -393,6 +393,10 @@ footer {
     color: #114664;
 }
 
+#logo a {
+	display: inline-block;
+}
+
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
@@ -458,12 +462,14 @@ footer {
     #logo {
 
         margin: 0 0.5rem;
+
     }
 
     #logo img {
         width: 60%;
 
     }
+
 
 
     /* Main content */
