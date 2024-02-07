@@ -75,5 +75,8 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 * On a fully-developed live site, I would like to have a page where runners’ times are populated in a table, however this is something definitely outside of the scope of this project.
 
+![Screenshot of Parkrun results table ](assets/images/readme-images/park-run-screenshot.png)
+
+[Source: https://www.parkrun.org.uk/porthcawl/results/latestresults/]
 
 
