@@ -43,3 +43,11 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 ![Screenshot of footer section](assets/images/readme-images/footer-sm-icons.png)
 
+## The Gallery
+
+* This page serves to ‘sell’ the running event by showing images of runners in a recent race.
+* Both running photos and social photos have been carefully selected as the primary function of the fun run is to bring the local running community together and less about being a competitive race.
+* All images have alt descriptions for accessibility and have been run through compression software to reduce loading times.
+* The page is responsive and will adjust the number of columns going from 4 to 1 depending on the viewport, triggered by certain breakpoints.
+
+![Screenshot of gallery responsiveness](assets/images/readme-images/responsive-gallery-annimated.gif)
