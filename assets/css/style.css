@@ -172,7 +172,6 @@ main {
     width: 80%;
 }
 
-
 #cover-text {
 
     background-color: rgba(126, 216, 88, 0.9);
@@ -225,12 +224,10 @@ main {
     border: 1px solid white;
 }
 
-
 #what-how-where h2 {
     margin-bottom: 20px;
     text-align: center;
 }
-
 
 #what {
     background-color: #37b6ff;
@@ -264,7 +261,6 @@ main {
     justify-content: space-between;
     align-items: center;
 }
-
 
 .panel {
     padding: 0 18px;
