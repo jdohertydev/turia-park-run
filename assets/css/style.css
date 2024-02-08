@@ -496,7 +496,8 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 62px;
+        
+        margin-top: 39px;
     }
 }
 
