@@ -49,6 +49,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 * The footer section provides link to social media platforms.
 * Icon colours match  the text from the logo for consistency.
 * Icons from Font Awesome are used instead of text to create a better aesthetic look and social media platforms have been ranked in order of their most important i.e. a runner is more likely to want to link to Strava therefore this appears first.
+* Boilerplate copyright information was also added.
 
 ![Screenshot of footer section](assets/images/readme-images/footer-sm-icons.png)
 
@@ -119,10 +120,6 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 * When validating the CSS, I kept returning an error 'Property text-wrap doesn't exist : nowrap'. This was fixed by changing the property to 'white-space: nowrap;'.
 * Originally, the whole div inside where the logo was contained was a clickable click to get to the home page. This fix required changing the CSS code targeting the logo to display: 'inline-block;'.
 
-#### Unsolved bugs
-
-* Although technically not a bug, the logo used was designed using a professional website that charges for a high-resolution version without gridlines. If this site were to be deployed, this logo would need to be bought. Right now, it does take a little bit away from the overall aesthetic but it is a good proof of concept.
-
 ### Validator testing
 
 #### HTML and CSS
@@ -133,7 +130,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 * This site was developed with a colour scheme that is visually appealing but also very minimal, always considering the accessibility of the user.
 * All images used have an alt description attribute and the icons used for social media links use the aria-label attribute.
-* Using [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview), this site scored an accessibility rating of 94 and a 95-performance rating overall.
+* Using [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview), this site scored an accessibility rating of 94 and a 97-performance rating overall.
 
 ![Screenshot of Lighthouse Desktop Score](assets/images/readme-images/lighthouse-desktop.png)
 
@@ -143,13 +140,14 @@ The purpose of this website is to inform potential runners of the event e.g. dat
     * In the GitHub repository, navigate to the Settings tab.
     * From the source section drop-down menu, select the Master Branch.
     * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-* The live link is [Turia Park Run](https://github.com/jdohertydev/turia-park-run).
+* The live link is [Turia Park Run](https://jdohertydev.github.io/turia-park-run/index.html).
 
 ## Credits
 
 ### Content
 * This site was inspired by the Love Running walkthrough and many of the pages have used code from it. Without this resource, it would have been difficult to produce something so professional.
 * The FAQ page was adapted from ['How to Create an Effective Faq Page Design with HTML and CSS'](https://www.youtube.com/watch?v=6U-8kIx2oMk).
+* Advice was given by my mentor as well direct support from the Code Institute.
 
 ### Media
 
