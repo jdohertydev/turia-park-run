@@ -170,6 +170,19 @@ main {
 
 }
 
+#hero-faq h2, #gallery-hero h2, #sign-up-hero h2{
+
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: 114664;
+    text-shadow: 2px 2px #000;
+    font-weight: bold;
+}
+
+
 
 #cover-text {
 
