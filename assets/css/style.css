@@ -1,5 +1,3 @@
-/* Start with general rules and move down with specificity */
-
 /* Google fonts import */
 
 
@@ -127,8 +125,8 @@ main {
     margin-top: 40px;
 }
 
-
 /* Hero section */
+
 #hero {
     height: 600px;
     width: 100%;
@@ -146,7 +144,7 @@ main {
     background: url("../images/faq-hero.jpg") no-repeat center center/cover;
     position: relative;
     background-position: 50% 25%;
-    
+
 }
 
 #gallery-hero {
@@ -170,23 +168,23 @@ main {
 
 }
 
-#hero-faq h2, #gallery-hero h2, #sign-up-hero h2{
+#hero-faq h2,
+#gallery-hero h2,
+#sign-up-hero h2 {
 
     font-size: 2rem;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
-    color:  #114664;
-    /* text-shadow: 2px 2px #000; */
-    font-weight: bold;
+    color: #114664;
     background-color: rgba(126, 216, 88, 0.9);
     padding: 15px;
     text-align: center;
     border: 1px solid white;
+    width: 80%;
 
 }
-
 
 
 #cover-text {
@@ -196,9 +194,13 @@ main {
     position: absolute;
     width: 100%;
     bottom: 30px;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
     border: 1px solid white;
+    width: 80%;
+    left: 10%;
+
+
 
 }
 
@@ -239,14 +241,9 @@ main {
 
 #what-how-where div {
     color: #fafafa;
-    /*padding: 15px;*/
     padding: 1rem 1.5rem;
-
-    /* This will not wrap on screens of less than 400px wide.
-    Each div will expand to fill the available space on its row */
     flex-basis: 100px;
     flex-grow: 1;
-    /* Creates a grid of meetup time divs over the background image */
     border: 1px solid white;
 }
 
@@ -333,6 +330,7 @@ main {
 #photos img {
     width: 100%;
     line-height: 1em;
+    border: 1px solid white;
 }
 
 #photos {
@@ -441,16 +439,13 @@ footer {
 }
 
 /* Media query: large or landscape phones (576px and up) */
+
 @media screen and (min-width: 576px) {
     #photos {
         column-count: 3;
         column-gap: 0;
     }
 }
-
-
-
-
 
 /* Media query below 500 px */
 
@@ -514,13 +509,12 @@ footer {
 
     /* Main content */
     main {
-        /* Push main content down to accommodate larger header */
-        
-        margin-top: 39px;
+         margin-top: 39px;
     }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
+
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #114664;
