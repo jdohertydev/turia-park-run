@@ -1,8 +1,6 @@
 /* Google fonts import */
 
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
-
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -38,7 +36,6 @@ h4 {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     color: #114664;
-
 }
 
 p,
@@ -52,8 +49,6 @@ li {
 .hidden-heading {
     display: none;
 }
-
-
 
 /* Header */
 
@@ -86,7 +81,6 @@ header img {
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 1em;
-
 }
 
 /* Navbar styles with dropdown toggle */
@@ -116,7 +110,6 @@ nav {
     font-size: 2rem;
 }
 
-
 /* Main */
 
 main {
@@ -134,7 +127,6 @@ main {
     position: relative;
     background-position: 50% 15%;
     /* code from https://developer.mozilla.org/en-US/docs/Web/CSS/background-position */
-
 }
 
 #hero-faq {
@@ -144,7 +136,6 @@ main {
     background: url("../images/faq-hero.jpg") no-repeat center center/cover;
     position: relative;
     background-position: 50% 25%;
-
 }
 
 #gallery-hero {
@@ -153,8 +144,6 @@ main {
     width: 100%;
     background: url("../images/gallery-hero.jpg") no-repeat center center/cover;
     position: relative;
-
-
 }
 
 #sign-up-hero {
@@ -164,8 +153,6 @@ main {
     background: url("../images/sign-up-hero.jpg") no-repeat center center/cover;
     position: relative;
     background-position: 50% 25%;
-
-
 }
 
 #hero-faq h2,
@@ -183,7 +170,6 @@ main {
     text-align: center;
     border: 1px solid white;
     width: 80%;
-
 }
 
 
@@ -199,9 +185,6 @@ main {
     border: 1px solid white;
     width: 80%;
     left: 10%;
-
-
-
 }
 
 .cta-button {
@@ -218,13 +201,11 @@ main {
     text-decoration: none;
     margin-top: 5px;
     margin-bottom: 5px;
-
 }
 
 .cta-button:hover {
     background-color: #fafafa;
     color: #454b1b;
-
 }
 
 /* what-how-where section */
@@ -234,9 +215,6 @@ main {
     display: flex;
     flex-direction: row;
     width: 100%;
-
-
-
 }
 
 #what-how-where div {
@@ -256,31 +234,23 @@ main {
 
 #what {
     background-color: #37b6ff;
-
-
 }
 
 #how {
     background-color: #7ed858;
-
 }
 
 #where {
     background-color: #ffbf58;
-
 }
 
 /* FAQs Section */
 
 #faq h2 {
-
     padding: 1rem 1.5rem;
 }
 
-
 .accordion {
-
-
     background-color: #37b6ff;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
@@ -293,7 +263,6 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 
@@ -306,7 +275,6 @@ main {
 }
 
 .faq {
-
     margin: 10px 0;
 }
 
@@ -317,9 +285,7 @@ main {
 /* Gallery - code adapted from Love Running walkthrough */
 
 #gallery h2 {
-
     padding: 1rem 1.5rem;
-
 }
 
 
@@ -340,7 +306,6 @@ main {
 /* Sign Up page */
 
 #sign-up h2 {
-
     padding: 1rem 1.5rem;
 }
 
@@ -360,7 +325,6 @@ main {
 }
 
 .text-input {
-
     background: #fafafa;
     color: #114664;
     width: 100%;
@@ -400,10 +364,7 @@ main {
 /* Footer */
 
 footer {
-
     background-color: #ffbf58;
-
-
 }
 
 #social-networks {
@@ -413,7 +374,6 @@ footer {
     gap: 20px;
     justify-content: center;
     list-style: none;
-
 }
 
 #social-networks i {
@@ -426,7 +386,6 @@ footer {
     text-align: center;
     padding-bottom: 10px;
     margin: 0;
-
 }
 
 #logo a {
@@ -456,15 +415,12 @@ footer {
         display: unset;
     }
 
-
     #photos {
         column-count: 1;
         column-gap: 0;
     }
 
 }
-
-
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -476,36 +432,29 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-
     }
 
     #menu {
         display: flex;
-
-
     }
 
     #menu>li {
         padding-left: 1rem;
         white-space: nowrap;
-
     }
 
     .nav-toggle-label {
         display: none;
-
     }
 
     #logo a {
         width: 60%;
         display: inline-block;
-
     }
 
     #logo img {
         width: 100%;
     }
-
 
     /* Main content */
     main {
@@ -524,5 +473,4 @@ footer {
     #photos {
         column-count: 4;
     }
-
 }
