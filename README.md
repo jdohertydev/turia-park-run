@@ -33,6 +33,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 * A hero image showing runners laughing is used to generate the user's attention.
 * Centred on this image is some text in capital letters informing the user when the next event is and a 'call to action' link which takes them directly to the sign-up page.
+* The opacity is set at 0.9 to ensure that the box text is clearly visible over the image.
 
 ![Screenshot of call to action button](assets/images/readme-images/call-to-action-button.jpg)
 
@@ -124,7 +125,12 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 #### HTML and CSS
 
-* No HTML or CSS errors are returned when passing through [The W3C Markup Validation Service](https://validator.w3.org/).
+* No HTML errors are returned when passing through [The W3C Markup Validation Service](https://validator.w3.org/):
+    * [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjdohertydev.github.io%2Fturia-park-run%2F).
+    * [faq.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjdohertydev.github.io%2Fturia-park-run%2Ffaq.html).
+    * [gallery.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjdohertydev.github.io%2Fturia-park-run%2Fgallery.html).
+    * [sign-up.html](https://jdohertydev.github.io/turia-park-run/sign-up.html).
+* No CSS errors are returned when passing through [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjdohertydev.github.io%2Fturia-park-run%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
 ### Accessibility 
 
