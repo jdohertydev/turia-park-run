@@ -90,7 +90,7 @@ header img {
     margin-bottom: 1em;
 }
 
-/* Navbar styles with dropdown toggle */
+/* Navbar styles with dropdown toggle - credit to Love Running Walkthrough */
 
 nav {
     position: absolute;
@@ -240,7 +240,7 @@ main {
     background-color: #ffbf58;
 }
 
-/* FAQs Section */
+/* FAQs Section credit to Cubixsolution */
 
 .accordion {
     background-color: #37b6ff;
@@ -289,7 +289,7 @@ main {
     line-height: 0;
 }
 
-/* Sign Up page */
+/* Sign Up page - adapted from Love Running Walkthrough*/
 
 #signup {
     background-position: center;
