@@ -25,7 +25,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 * A unique logo and logical menu sequence appear in the navigation bar. This is consistent across all pages of the site.
 * Similar to breadcrumbs, the active page link is underlined so the user always knows where they are.
 * For those using a mouse, a hover-over indicates the presence of clickable links.
-* For users on a smaller viewport, the page links become hidden behind a familiar 'burger' menu which maximises screen real-estate.
+* For users on a smaller viewport, the page links become hidden behind a familiar 'burger' menu which maximises screen real estate.
 
 ![Screenshot of burger menu from Turia Park Run website](assets/images/readme-images/burger-menu.png)
 
@@ -33,7 +33,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 * A hero image showing runners laughing is used to generate the user's attention.
 * Centred on this image is some text in capital letters informing the user when the next event is and a 'call to action' link which takes them directly to the sign-up page.
-* The opacity is set at 0.9 to ensure that the box text is clearly visible over the image.
+* The opacity is set at 0.9 to ensure that the box text is visible over the image.
 
 ![Screenshot of call to action button](assets/images/readme-images/call-to-action-button.jpg)
 
@@ -47,7 +47,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 ### The Footer
 
-* The footer section provides link to social media platforms.
+* The footer section provides links to social media platforms.
 * Icon colours match  the text from the logo for consistency.
 * Icons from Font Awesome are used instead of text to create a better aesthetic look and social media platforms have been ranked in order of their most important i.e. a runner is more likely to want to link to Strava therefore this appears first.
 * Boilerplate copyright information was also added.
@@ -56,8 +56,8 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 ### FAQs
 
-* The 'frequently asked questions' aims to alleviate runners of any worries/doubts so that they are more likely to sign up.
-* The questions featured are real questions that are asked monthly and the colours used are consistent with logo.
+* The 'frequently asked questions' page aims to alleviate runners of any worries/doubts so that they are more likely to sign up.
+* The questions featured are real questions that are asked monthly and the colours used are consistent with the logo.
 * To ensure that users know that an interaction is needed to see the answers, downward chevrons from Font Awesome have been placed at the end of each question.
 * Due to the density of the information in this section, an accordion-style dropdown menu was used so the information displayed is always information that has been specifically requested by the user.
 * This effect was achieved using CSS and JavaScript based on a YouTube tutorial ['How to Create an Effective Faq Page Design with HTML and CSS'](https://www.youtube.com/watch?v=6U-8kIx2oMk).
@@ -76,15 +76,15 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 ### Sign-up page
 
-* After generating awareness, interest and desire of the running event through the other pages, the purpose of the sign-up page is to affect action. 
-* The user is required to enter their name, email address and also select where they heard about the event. This will help to understand how users are finding us.
+* After generating awareness, interest and desire for the running event through the other pages, the purpose of the sign-up page is to affect action. 
+* The user is required to enter their name and email address and also select where they heard about the event. This will help to understand how users are finding us.
 * All fields are required and a valid email address (with @, .com, etc) needs to be entered by the user.
 
 ![Screenshot of sign-up form](assets/images/readme-images/sign-up-screenshot.png)
 
 ### Features left to implement
 
-* On a fully-developed live site, I would like to have a page where runners' times are populated in a table, however this is something definitely outside of the scope of this project.
+* On a fully-developed live site, I would like to have a page where runners' times are populated in a table, however, this is something definitely outside of the scope of this project.
 
 ![Screenshot of Parkrun results table](assets/images/readme-images/park-run-screenshot.png)
 
@@ -97,19 +97,19 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 * The sign-up form validates the user's email address as well as making all fields compulsory.
 * All external links open in a new tab so users stay within the site and the 'noopener' attribute has also been added to protect the user.
 
-### Screenshots of website on different devices
+### Screenshots of the website on different devices
 
 #### Mobile (280x653)
 
-![Screenshot of mobile screenshot](assets/images/readme-images/mobile-screenshot.png)
+![Screenshot of mobile](assets/images/readme-images/mobile-screenshot.png)
 
 #### Tablet/laptop (768x1024)
 
-![Screenshot of tablet/laptop screenshot](assets/images/readme-images/tablet-screenshot.png)
+![Screenshot of tablet/laptop](assets/images/readme-images/tablet-screenshot.png)
 
 #### Desktop (1920×1080)
 
-![Screenshot of desktop screenshot](assets/images/readme-images/desktop-screenshot.png)
+![Screenshot of desktop](assets/images/readme-images/desktop-screenshot.png)
 
 ### Bugs
 
@@ -153,12 +153,12 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 ### Content
 * This site was inspired by the Love Running walkthrough and many of the pages have used code from it. Without this resource, it would have been difficult to produce something so professional.
 * The FAQ page was adapted from ['How to Create an Effective Faq Page Design with HTML and CSS'](https://www.youtube.com/watch?v=6U-8kIx2oMk).
-* Advice was given by my mentor as well direct support from the Code Institute.
+* Advice was given by my mentor as well as direct support from the Code Institute.
 * To clean up the HTML and CSS [Webformatter](https://webformatter.com/) was used.
 
 ### Media
 
-* The favicon icon based on the logo was create using [Favicon](https://favicon.io/favicon-converter/).
+* The favicon icon based on the logo was created using [Favicon](https://favicon.io/favicon-converter/).
 * Montserrat was the main font used throughout the site and this was taken from [Google Fonts]( https://fonts.google.com/).
 * The author has been given permission to use all the stock photos of runners which were taken from a recent event.
 * Icons that feature in the 'where?' and footer section are from [Font Awesome]( https://fontawesome.com/).
