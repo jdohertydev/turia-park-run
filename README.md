@@ -16,7 +16,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 ## Technologies used
 
-* This site has used HTML, CSS and JavaScript.
+* This site predominantly uses HTML, CSS and a small amount of JavaScript adapted from ['How to Create an Effective Faq Page Design with HTML and CSS'](https://www.youtube.com/watch?v=6U-8kIx2oMk).
 
 ## Features
 
