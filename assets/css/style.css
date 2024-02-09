@@ -1,6 +1,6 @@
 /* Google fonts import */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -20,13 +20,13 @@ body {
     display: flex;
     flex-direction: column;
     color: #114664;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 h1,
 h2,
 h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #114664;
@@ -39,16 +39,15 @@ h3 {
     text-align: center;
 }
 
-
 h4 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     letter-spacing: 2px;
     color: #114664;
 }
 
 p,
 li {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #114664;
     list-style-type: none;
     margin-top: 10px;
@@ -85,7 +84,7 @@ header img {
 
 #menu {
     list-style-type: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 1em;
@@ -106,7 +105,7 @@ nav {
 
 /* Nav toggle */
 
-#nav-toggle:checked~nav {
+#nav-toggle:checked ~ nav {
     display: block;
 }
 
@@ -138,7 +137,6 @@ main {
 }
 
 #hero-faq {
-
     height: 400px;
     width: 100%;
     background: url("../images/faq-hero.jpg") no-repeat center center/cover;
@@ -147,7 +145,6 @@ main {
 }
 
 #gallery-hero {
-
     height: 400px;
     width: 100%;
     background: url("../images/gallery-hero.jpg") no-repeat center center/cover;
@@ -155,7 +152,6 @@ main {
 }
 
 #sign-up-hero {
-
     height: 400px;
     width: 100%;
     background: url("../images/sign-up-hero.jpg") no-repeat center center/cover;
@@ -166,7 +162,6 @@ main {
 #hero-faq h2,
 #gallery-hero h2,
 #sign-up-hero h2 {
-
     font-size: 2rem;
     position: absolute;
     top: 50%;
@@ -181,7 +176,6 @@ main {
 }
 
 #cover-text {
-
     background-color: rgba(126, 216, 88, 0.9);
     font-size: 1.2rem;
     position: absolute;
@@ -195,7 +189,6 @@ main {
 }
 
 .cta-button {
-
     display: inline-block;
     color: #114664;
     border: 1px solid #114664;
@@ -212,13 +205,11 @@ main {
 
 .cta-button:hover {
     background-color: #fafafa;
-
 }
 
 /* what-how-where section */
 
 #what-how-where {
-
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -253,7 +244,7 @@ main {
 
 .accordion {
     background-color: #37b6ff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     cursor: pointer;
     font-size: 1.2rem;
     width: 100%;
@@ -310,7 +301,7 @@ main {
     max-width: 400px;
     left: 10%;
     top: 150px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #114664;
     margin: auto;
 }
@@ -322,17 +313,16 @@ main {
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #114664;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     border-radius: 2px;
     padding: 0 5px;
-
 }
 
 #where-did-you-here {
     width: 100%;
     height: 26px;
     margin: 5px 0 20px 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #114664;
     border: 1px solid #114664;
     border-radius: 2px;
@@ -349,7 +339,6 @@ main {
 
 .join-button:hover {
     background-color: #fafafa;
-
 }
 
 /* Footer */
@@ -371,14 +360,10 @@ footer {
     font-size: 1.6rem;
     padding: 5%;
     color: #f0f0f0;
-
-
 }
 
 #social-networks i:hover {
     color: #fafafa;
-
-
 }
 
 #copyright-notice {
@@ -409,7 +394,6 @@ footer {
 /* Media query below 500 px */
 
 @media screen and (max-width: 500px) {
-
     /* help from Jason at Code Institute */
     #what-how-where {
         display: unset;
@@ -419,12 +403,10 @@ footer {
         column-count: 1;
         column-gap: 0;
     }
-
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
     /* Header */
     nav {
         display: block;
@@ -438,7 +420,7 @@ footer {
         display: flex;
     }
 
-    #menu>li {
+    #menu > li {
         padding-left: 1rem;
         white-space: nowrap;
     }
