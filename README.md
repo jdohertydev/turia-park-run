@@ -136,7 +136,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 
 * This site was developed with a colour scheme that is visually appealing but also very minimal, always considering the accessibility of the user.
 * All images used have an alt description attribute and the icons used for social media links use the aria-label attribute.
-* Using [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview), this site scored an accessibility rating of 94 and a 97-performance rating overall.
+* Using [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview), this site scored an accessibility rating of 94 and a 92-performance rating overall.
 
 ![Screenshot of Lighthouse Desktop Score](assets/images/readme-images/lighthouse-desktop.png)
 
@@ -154,7 +154,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 * This site was inspired by the Love Running walkthrough and many of the pages have used code from it. Without this resource, it would have been difficult to produce something so professional.
 * The FAQ page was adapted from ['How to Create an Effective Faq Page Design with HTML and CSS'](https://www.youtube.com/watch?v=6U-8kIx2oMk).
 * Advice was given by my mentor as well direct support from the Code Institute.
-* To clean up HTML and CSS [Webformatter](https://webformatter.com/) was used.
+* To clean up the HTML and CSS [Webformatter](https://webformatter.com/) was used.
 
 ### Media
 
