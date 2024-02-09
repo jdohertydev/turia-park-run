@@ -32,11 +32,21 @@ h3 {
     color: #114664;
 }
 
+#faq h2,
+#gallery h2,
+#sign-up h2 {
+    padding: 1rem 1.5rem;
+    text-align: center;
+}
+
+
 h4 {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     color: #114664;
 }
+
+
 
 p,
 li {
@@ -243,10 +253,6 @@ main {
 
 /* FAQs Section */
 
-#faq h2 {
-    padding: 1rem 1.5rem;
-}
-
 .accordion {
     background-color: #37b6ff;
     font-family: 'Montserrat', sans-serif;
@@ -280,11 +286,6 @@ main {
 
 /* Gallery - code adapted from Love Running walkthrough */
 
-#gallery h2 {
-    padding: 1rem 1.5rem;
-}
-
-
 #photos {
     column-count: 3;
 }
@@ -300,10 +301,6 @@ main {
 }
 
 /* Sign Up page */
-
-#sign-up h2 {
-    padding: 1rem 1.5rem;
-}
 
 #signup {
     background-position: center;
