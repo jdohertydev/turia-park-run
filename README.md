@@ -129,7 +129,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
     * [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjdohertydev.github.io%2Fturia-park-run%2F).
     * [faq.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjdohertydev.github.io%2Fturia-park-run%2Ffaq.html).
     * [gallery.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjdohertydev.github.io%2Fturia-park-run%2Fgallery.html).
-    * [sign-up.html](https://jdohertydev.github.io/turia-park-run/sign-up.html).
+    * [sign-up.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjdohertydev.github.io%2Fturia-park-run%2Fsign-up.html).
 * No CSS errors are returned when passing through [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjdohertydev.github.io%2Fturia-park-run%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
 ### Accessibility 
@@ -154,6 +154,7 @@ The purpose of this website is to inform potential runners of the event e.g. dat
 * This site was inspired by the Love Running walkthrough and many of the pages have used code from it. Without this resource, it would have been difficult to produce something so professional.
 * The FAQ page was adapted from ['How to Create an Effective Faq Page Design with HTML and CSS'](https://www.youtube.com/watch?v=6U-8kIx2oMk).
 * Advice was given by my mentor as well direct support from the Code Institute.
+* To clean up HTML and CSS [Webformatter](https://webformatter.com/) was used.
 
 ### Media
 
