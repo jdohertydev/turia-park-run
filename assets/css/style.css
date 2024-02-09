@@ -204,7 +204,7 @@ main {
 
 .cta-button:hover {
     background-color: #fafafa;
-    color: #454b1b;
+
 }
 
 /* what-how-where section */
@@ -354,13 +354,13 @@ main {
 
 .join-button:hover {
     background-color: #fafafa;
-    color: #454b1b;
+
 }
 
 /* Footer */
 
 footer {
-    background-color: #ffbf58;
+    background-color: #000;
 }
 
 #social-networks {
@@ -375,13 +375,22 @@ footer {
 #social-networks i {
     font-size: 1.6rem;
     padding: 5%;
-    color: #114664;
+    color: #f0f0f0;
+
+
+}
+
+#social-networks i:hover {
+    color: #fafafa;
+
+
 }
 
 #copyright-notice {
     text-align: center;
     padding-bottom: 10px;
     margin: 0;
+    color: #f0f0f0;
 }
 
 #logo a {
